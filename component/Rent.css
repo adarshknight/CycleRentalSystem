@@ -1,0 +1,73 @@
+/* Rent.css */
+
+.rent-page {
+  background-image: url(''); /* Set background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Ensure full viewport height */
+}
+
+.rent-title {
+  margin-top: 50px; /* Add top margin for title */
+  font-size: 2.5rem; /* Increase font size for title */
+  text-align: center; /* Center align title */
+}
+
+.rent-description {
+  font-size: 1.2rem; /* Set font size for description */
+  text-align: center; /* Center align description */
+  margin-bottom: 50px; /* Add bottom margin for description */
+}
+
+.rent-warning {
+  background-color: #ffe6e6; /* Set background color for warning */
+  border: 1px solid #ff0000; /* Add border for warning */
+  padding: 15px; /* Add padding for warning */
+  margin-bottom: 20px; /* Add bottom margin for warning */
+}
+
+.rent-warning p {
+  margin: 0; /* Remove default margin for paragraphs inside warning */
+}
+
+.payment-methods {
+  margin-top: 50px; /* Add top margin for payment methods */
+}
+
+.payment-method {
+  padding: 20px; /* Add padding around payment methods */
+}
+
+.payment-button {
+  width: 100%; /* Set button width to fill column */
+  margin-bottom: 15px; /* Add bottom margin for buttons */
+}
+
+.wallet-note {
+  font-size: 0.9rem; /* Set font size for wallet note */
+  color: #888; /* Set text color */
+  margin-top: 5px; /* Add top margin for wallet note */
+}
+
+/* Adjust the video size */
+video {
+  width: 100%; /* Set the width to fill the container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Set maximum width to fill container */
+  margin-bottom: 10px; /* Add bottom margin */
+}
+.center-button {
+  display: flex;
+  justify-content: center;
+}
+.payment-actions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.payment-methods,
+.upi-input {
+  margin-right: 20px;
+}

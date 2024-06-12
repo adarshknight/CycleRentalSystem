@@ -1,0 +1,89 @@
+/* Home.css */
+
+.home-container {
+    /* Your existing styles */
+  }
+  
+  .home-header {
+    /* Your existing styles */
+  }
+  
+  .home-main {
+    /* Your existing styles */
+  }
+  .bike-rental-section {
+    background-color: #f8f9fa; /* Change the background color as needed */
+    padding: 30px;
+  }
+  .home-container {
+    background-image: url('https://getwallpapers.com/wallpaper/full/4/0/6/1442904-download-cycling-desktop-wallpaper-1920x1440.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  
+  .home-features {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+  }
+  
+  .feature h2 {
+    /* Your existing styles */
+  }
+  
+  .feature p {
+    /* Your existing styles */
+  }
+  
+  .home-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-footer button {
+    background-color: #003366;
+    color: white;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem; /* Adjust font size as needed */
+    width: 50%; /* Set button width to 50% of its container */
+  }
+  
+  @media (max-width: 768px) {
+    .home-footer button {
+      width: 80%; /* Adjust button width for smaller screens */
+    }
+  }
+  /* Animation for page transition */
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-out;
+}

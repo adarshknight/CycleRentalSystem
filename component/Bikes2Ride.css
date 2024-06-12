@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bikes2ride-container {
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/021/599/588/small/abstract-white-and-gray-overlap-circles-background-3d-paper-circle-banner-with-drop-shadows-minimal-simple-design-for-presentation-flyer-brochure-website-book-etc-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%; /* Make sure the container covers the full screen */
+  }
+  
+  /* Define animation keyframes */
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animations to specific elements */
+  .bikes2ride-title {
+    animation: slideInFromLeft 1s ease-out;
+  }
+  
+  .bikes2ride-nav ul {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .bikes2ride-features,
+  .bikes2ride-trusted,
+  .chatbot-container,
+  .footer {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  /* Add your existing styles below */
+  .bikes2ride-title {
+    text-align: center;
+    color: #003366;
+    margin-top: 2rem;
+  }
+  
+  .bikes2ride-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bikes2ride-nav li {
+    padding: 0.5rem 1rem;
+  }
+  
+  .bikes2ride-features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .bikes2ride-features h2 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 1rem;
+  }
+  
+  .bikes2ride-button {
+    background-color: #003366;
+    color: white;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bikes2ride-trusted {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .bikes2ride-trusted h2 {
+    color: #003366;
+    margin-bottom: 1rem;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  /* Existing styles */
+  
+  .avatar-dance {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .avatar-dance img {
+    width: 100px; /* Adjust size as needed */
+    animation: avatarDance 2s infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes avatarDance {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

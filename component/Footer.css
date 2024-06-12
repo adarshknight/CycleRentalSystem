@@ -1,0 +1,29 @@
+.footer {
+    background-color: #333; /* Set background color for the footer */
+    color: #fff; /* Set text color */
+    padding: 30px 0; /* Add padding to the top and bottom */
+  }
+  
+  .footer-heading {
+    color: #fff; /* Set heading text color */
+    margin-bottom: 20px; /* Add bottom margin to the heading */
+  }
+  
+  .footer-info {
+    margin-bottom: 10px; /* Add bottom margin to contact information */
+  }
+  
+  .social-icons {
+    margin-bottom: 0; /* Remove default margin for social icons */
+  }
+  
+  .social-icons a {
+    color: #fff; /* Set social icon color */
+    font-size: 20px; /* Set social icon size */
+    margin-right: 10px; /* Add right margin between social icons */
+  }
+  
+  .footer-text {
+    color: #fff; /* Set text color */
+  }
+  

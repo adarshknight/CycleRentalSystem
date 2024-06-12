@@ -1,0 +1,10 @@
+.blog-image-container {
+    height: 20px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  .blog-image-container img {
+    width: 100%;
+    height: auto;
+  }
+  

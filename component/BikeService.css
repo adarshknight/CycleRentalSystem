@@ -1,0 +1,54 @@
+/* BikeService.css */
+
+.service-page {
+    color: #ffd700; /* Gold */
+    background-color: #000; /* Black */
+  }
+  
+  .service-details h1,
+  .service-details h2,
+  .service-details h3,
+  .service-details h4 {
+    color: #ffd700; /* Gold */
+  }
+  
+  .service-details p,
+  .service-details li {
+    color: #ffd700; /* Gold */
+  }
+  
+  .issue-input,
+  .repair-dropdown,
+  .submit-button {
+    background-color: #fff; /* White */
+    color: #0b0a00; /* Gold */
+    border: none;
+  }
+  
+  .issue-input::placeholder,
+  .repair-dropdown option {
+    color: #333; /* Dark gray */
+  }
+  
+  .submit-button:hover {
+    background-color: #cca300; /* Darker gold */
+  }
+  
+  .popup-content {
+    background-color: #000; /* Black */
+    color: #ffd700; /* Gold */
+  }
+  
+  .popup-content button {
+    background-color: #ffd700; /* Gold */
+    color: #000; /* Black */
+    border: none;
+  }
+  
+  .popup-content button:hover {
+    background-color: #cca300; /* Darker gold */
+  }
+  
+  .map-container {
+    height: 400px; /* Set a fixed height */
+  }

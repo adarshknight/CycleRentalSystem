@@ -1,0 +1,33 @@
+/* MyTrip.css */
+
+.my-trip-container {
+    height: 100vh;
+    width: 100vw;
+    /* Add other necessary styles */
+  }
+  
+  
+  .my-trip-content {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-trip-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .section-heading {
+    color: #343a40;
+    margin-bottom: 10px;
+  }
+  
+  .user-profile p,
+  .biking-stats p {
+    margin: 5px 0;
+  }
+  
